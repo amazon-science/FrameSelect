@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs
+*.log
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Result JSONs written by ``EvaluationResult.save`` (README quickstart)
+results/
+
+# Benchmark outputs written by ``examples/run_activitynet.py``
+benchmarks/
+
+# Data and embedding caches, regenerated from your own videos; never check in.
+data/
+cache_*/
+
+# Environment
+.env
